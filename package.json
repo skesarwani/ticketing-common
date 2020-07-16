@@ -2,10 +2,10 @@
   "name": "@skticketing/common",
   "version": "1.0.5",
   "description": "",
-  "main": "./build/index.js",
-  "types": "./build/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "files": [
-    "./build/**/*"
+    "build/**/*"
   ],
   "scripts": {
     "clean": "del build",
