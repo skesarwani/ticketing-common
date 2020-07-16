@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { ErrorMetadata } from "../../../ticketing-nodeMicroservices-react/authapi/src/app/models/models";
+import { ErrorMetadata } from "../models/models";
 import { CustomErrorBase } from "../errors/custom-error-base";
 
 export const errorHandler = (err: Error, req: Request, res: Response, next: NextFunction) => {

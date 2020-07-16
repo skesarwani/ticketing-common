@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from 'jsonwebtoken';
-import { IUserPayload } from "../../../ticketing-nodeMicroservices-react/authapi/src/app/models/contracts/user-contracts";
+import { IUserPayload } from "../models/contracts/user-contracts";
 
 
 export const currentUser = (
